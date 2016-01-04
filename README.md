@@ -12,7 +12,7 @@ Sometimes I get asked what technology stack I'm using for what and if I heard of
 * Hapi.js
 * Expressjs
 
-I like to create micro services if possible
+I like to create micro services if possible and have a Hapi.js-powered proxy that binds them all together. Usually, I go with Hapi.js when deciding to create Node.js-powered backends as it reduces the amount of boilerplate I need to write and I like the configuration-heavy approach.
 
 ## Web/Frontend
 *Language:* JavaScript  
@@ -57,6 +57,8 @@ Since JavaScript is a big part of this list, I'd like to go deeper with some of 
 * ESLint with AirBnB preset
 
 #### Testing
+If I need tests on the server-side, I go with AVA, as it allows me to write tests in ES2015 and has a clearer and more concise API than other test runners.
+
 * Mocha (Test runner)
 * Chai (Assertion library)
 * Karma
