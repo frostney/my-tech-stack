@@ -103,5 +103,4 @@ When I need a complete server where I may need to tinker around or have complete
 ### Stuff I'm keeping my eye on
 * Gitlab + Gitlab CI (I have used Gitlab at a company before and I found it most pleasant to work with, but I can't see myself switching to Gitlab just yet. Github is just too convenient at the moment. I'm really interested to see how the CI integration will progress and the Mattermost integration may be promising)
 * Tutum.co
-* Ava (This looks like a very promising test runner to me. There are a few things that stop me from using it on a regular base: Babel 6 support, Browser support, Karma support)
 * `async`-`await`: I haven't had a chance to use it in a production environment yet, but I do want to
