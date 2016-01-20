@@ -34,7 +34,10 @@ I usually tend to use the `stage-1` or `stage-0` preset when using Babel dependi
 *Frameworks:*
 * React Native
 
-I am a big fan of React Native and have used it for apps that are currently in the App Store.
+I am a big fan of React Native and have used it for apps that are currently in the App Store. React Native for me has all the advantages of JavaScript in a mobile platform:
+- Interfaces with native controls
+- Declarative UI (The React part of React Native)
+- Multiple threads
 
 ## Games
 That depends on the platform I'm targeting. But additionally to the technologies mentioned so far, these technologies may also be under consideration:
@@ -50,14 +53,16 @@ Since JavaScript is a big part of this list, I'd like to go deeper with some of 
 *Modularity:* I'm a big believer in keeping everything as modular as possible
 *Control flow:* Promises (ES6 promise)  
 *AJAX:* fetch (with or without polyfill)  
-*Task runner:* NPM scripts most of the time, I have used Grunt extensively in the past. When the scripts go out of control, I turn back to Grunt.
+*Task runner:* NPM scripts most of the time, I have used Grunt extensively in the past. When the scripts tend to go out of control, I turn back to Grunt.
 
 ### Linting & Testing
 #### Linting
 * ESLint with AirBnB preset
 
+I feel the AirBnB preset is the closest to my personal preference and while I don't agree on some minor points in their guideline
+
 #### Testing
-If I need tests on the server-side, I go with AVA, as it allows me to write tests in ES2015 and has a clearer and more concise API than other test runners.
+If I need tests on the server-side, I go with AVA, as it allows me to write tests in ES2015 and has a clearer and more concise API than my other go-to test framework Mocha.
 
 * Mocha (Test runner)
 * Chai (Assertion library)
@@ -67,13 +72,13 @@ If I need tests on the server-side, I go with AVA, as it allows me to write test
 * Slack
 * Github Issues
 
-I prefer asynchronous communication. Github issues is where I formulate my ideas for discussion and create task issues out of those.
+I prefer asynchronous communication. Github issues is where I formulate my ideas for discussion and create task issues out of those. I like to do "umbrella" tasks which group certain issues for a specific milestone, release or task group.
 
 ### Development workflow
 * Github Flow
 * ZenHub
 
-I have used Trello before and I found it to be too liberal.
+I have used Trello before and I found it to be way too liberal. With Trello I felt there was the need for someone to organize the boards and enforce certain standards on how the boards should be used. Where Trello worked really well for me was couple of days or single-week projects.
 
 ### Local development workflow
 * Vagrant
@@ -103,4 +108,4 @@ When I need a complete server where I may need to tinker around or have complete
 ### Stuff I'm keeping my eye on
 * Gitlab + Gitlab CI (I have used Gitlab at a company before and I found it most pleasant to work with, but I can't see myself switching to Gitlab just yet. Github is just too convenient at the moment. I'm really interested to see how the CI integration will progress and the Mattermost integration may be promising)
 * Tutum.co
-* `async`-`await`: I haven't had a chance to use it in a production environment yet, but I do want to
+* `async`-`await`: I haven't had a chance to use it in a production environment yet, but I really want to
