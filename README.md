@@ -41,6 +41,12 @@ I am a big fan of React Native and have used it for apps that are currently in t
 - Declarative UI (The React part of React Native)
 - Multiple threads
 
+## Databases
+- RethinkDB
+- CouchDB
+
+RethinkDB is my database of choice, because it's fully JSON-compliant, has a modern admin interface, a JavaScript playground on the admin interface, powerful queries and real-time support being built-in (and it doesn't feel like a hack). My second choice is CouchDB, mostly because I worked with it for almost three years, but it falls short compared to RethinkDB in terms of querying and real-time support.
+
 ## Games
 That depends on the platform I'm targeting. But additionally to the technologies mentioned so far, these technologies may also be under consideration:
 - Unity3D (C#)
