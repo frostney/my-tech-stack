@@ -70,11 +70,7 @@ Since JavaScript is a big part of this list, I'd like to go deeper with some of 
 I feel the AirBnB preset is the closest to my personal preference and while I don't agree on some minor points in their guideline, I think it's a very good base for linting (especially for React projects).
 
 #### Testing
-If I need tests on the server-side, I go with AVA, as it allows me to write tests in ES2015 and has a clearer and more concise API than my other go-to test framework Mocha.
-
-* Mocha (Test runner)
-* Chai (Assertion library)
-* Karma (For client-side tests I always go with Karma. I have lived through setting up automated client testing with JavaScript and I happily choose Karma, even though it may sometimes be unpredictable if specific runners or plugins don't work well with one another. Debugging Karma configurations is something I struggle with.)
+I always go with AVA for tests. Since AVA doesn't running in the browser yet, I'll usually put in a JSDOM(-like) environment. For React unit tests, I also use Enzyme.
 
 ### Communication
 * Slack
